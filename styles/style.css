@@ -42,7 +42,7 @@ a:hover{
   color:#E75480;
 }
 a:visited{
-  color: #411900;
+  color:#411900;
 }
 a:active{
   color:whitesmoke;
@@ -102,7 +102,8 @@ h1{
 main h2{
   color: #411900;
   text-align: center;
-  margin: 2em;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
   font-size: xx-large;
 }
 
@@ -112,14 +113,12 @@ main h2{
   flex-direction: row;
   justify-content: center;
   gap: 5em;
-  margin: 1em; 
+  margin: 1em;  
 }
 
 .home section ul:first-of-type img:hover{
   border: 1em solid #FDFD96;
   border-radius: 100%;
-  color: #D695C1;
-  background-image: linear-gradient(#FDFD96, #D695C1)
 }
 
 main section ul figcaption{
@@ -136,7 +135,8 @@ main section ul figcaption{
 .whatarecats{
   text-align: center;
   width: 40em;
-  margin: 5em auto;
+  margin: auto;
+  margin-bottom: 3em;
 }
 
 .home section:last-of-type img{
@@ -152,7 +152,6 @@ main section ul figcaption{
     transform: rotate(360deg)
   } 
 } 
-
 
 footer ul li a{
   text-decoration: none;
@@ -204,14 +203,13 @@ h3{
   background-color:#D695C1;
   border: 0.1em solid white;
   border-radius: 0.3em;
-  margin-left: 60em;
+  margin-left: 45em;
   padding: 0.5em;
   transition: all 300ms ease;
 }
 
-.goodbadfoods a:last-of-type,
-.moreinfo a:last-of-type{
-  margin-left: 45em;
+.care a:last-of-type{
+  margin-left: 60em;
 }
 
 .goodbadfoods a:last-of-type:hover, 
@@ -227,15 +225,15 @@ background: skyblue;
   margin-bottom: 5em;
 }
 
- /* catcare html */
+ /* catcare and moreinfo */
 
  .care ul{
-  list-style-type:circle;
+  list-style-type: circle;
   width: 30em;
   margin: auto;
 }
 
-.care p, div{
+.care p, div, .moreinfo{
   width: 55em;
   margin: auto;
 }
@@ -283,15 +281,8 @@ div{
   margin-bottom: 5em;
 }
 
- /* moreinfo html */
-
-.moreinfo{
-  width: 55em;
-  margin: auto;
-}
-
  h4{
-  margin-bottom: 0.5em
+  margin-bottom: 0.5em;
 }
 
  video{
@@ -312,10 +303,6 @@ footer form{
 
 footer section:last-of-type h2{
  margin-left: 17em;
-}
-
-.moreinfo footer section:last-of-type h2{
- padding-left: 4em;
 }
 
 input{
